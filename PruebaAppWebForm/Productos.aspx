@@ -46,16 +46,22 @@
       <div class="row">
  <div class="form-group col-md-6">
               <asp:Label ID="Label5" runat="server" Text="Favorito"></asp:Label>
-              <asp:ListBox ID="ListFavoritos" CssClass="form-control"  runat="server" Rows="5"></asp:ListBox>
+                     <asp:gridview id="GridFavorito" CssClass="form-control"   runat="server">
+ 
+</asp:gridview>
          </div>
           <div class="form-group col-md-6">
               <asp:Label ID="Label6" runat="server"   Text="Carrito"></asp:Label>
-              <asp:ListBox ID="ListCarritos" CssClass="form-control" runat="server" Rows="5"></asp:ListBox>
+                  <asp:gridview id="GridCarrito" CssClass="form-control"  runat="server">
+ 
+</asp:gridview>
             
           <div class="form-group">
           <asp:TextBox ID="SubTotal" CssClass="form-control"  runat="server"></asp:TextBox>
               </div>
                 </div>
+      
+   
       </div>
              <div class="form-group col-md-1">
            <asp:Button ID="Add" runat="server" CssClass="form-control"  Text="Agregar" OnClick="Button1_Click" />

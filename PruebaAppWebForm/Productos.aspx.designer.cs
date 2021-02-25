@@ -96,13 +96,13 @@ namespace PruebaAppWebForm
         protected global::System.Web.UI.WebControls.Label Label5;
 
         /// <summary>
-        /// Control ListFavoritos.
+        /// Control GridFavorito.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListBox ListFavoritos;
+        protected global::System.Web.UI.WebControls.GridView GridFavorito;
 
         /// <summary>
         /// Control Label6.
@@ -114,13 +114,13 @@ namespace PruebaAppWebForm
         protected global::System.Web.UI.WebControls.Label Label6;
 
         /// <summary>
-        /// Control ListCarritos.
+        /// Control GridCarrito.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListBox ListCarritos;
+        protected global::System.Web.UI.WebControls.GridView GridCarrito;
 
         /// <summary>
         /// Control SubTotal.
